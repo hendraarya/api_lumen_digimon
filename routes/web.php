@@ -17,4 +17,5 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/excel','ExcelController@index');
+$router->get('/excel','ExcelController@exportExcel');
+$router->post('/import-excel','ExcelController@importExcel');
