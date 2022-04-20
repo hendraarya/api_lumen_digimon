@@ -21,4 +21,5 @@ class ExcelImportToArray implements ToCollection, WithHeadingRow, WithChunkReadi
     {
         return 1000;
     }
+    
 }
