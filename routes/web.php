@@ -19,4 +19,5 @@ $router->get('/', function () use ($router) {
 
 $router->get('/excel','ExcelController@exportExcel');
 $router->post('/import-excel','ExcelController@importExcel');
-$router->post('/import-mtaexcel','MtaExcelController@importMtaExcel');
+$router->post('/import-mtaexcel-costcenter','MtaExcelController@importMtaExcelCostCenter');
+$router->post('/import-mtaexcel-machine','MtaExcelController@importMtaExcelMachine');
